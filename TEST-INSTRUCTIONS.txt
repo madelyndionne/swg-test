@@ -1,0 +1,6 @@
+PUBLIC TEST PACKAGE - NOT FOR LIVE DEPLOYMENT
+
+Upload the CONTENTS of this ZIP to swg-test repository root (not the ZIP itself).
+This test has only three song pages and their MP3/cover assets. The index has been reduced to three cards; unrelated navigation and message forms were removed to avoid broken or private destinations.
+Test: add two songs to playlist, reorder, Play All, Next, and select a song then Download Song; verify license agreement appears and checkbox enables download. Also test song-page download if present.
+This does NOT verify the full site. Do not deploy as production.

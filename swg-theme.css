@@ -1,0 +1,127 @@
+/* Songs With Grace shared optional night palette */
+html[data-swg-theme="dark"]{color-scheme:dark;--purple:#d9b9ed;--deep:#f0dff5;--paper:#19151f;--ink:#f1eaf0;--soft:#382a43}
+html[data-swg-theme="dark"] .site-menu,html[data-swg-theme="dark"] .site-info section{background:#28212f;border-color:#51415b;color:var(--ink)}
+html[data-swg-theme="dark"] .site-menu a,html[data-swg-theme="dark"] .site-footer a{color:#e4c9f2}
+html[data-swg-theme="dark"] .site-footer{border-color:#51415b;color:#c8b9cd}
+html[data-swg-theme="dark"] .hero{background-image:linear-gradient(rgba(18,12,24,.56),rgba(18,12,24,.68)),url('assets/main-page-hero.webp')}
+html[data-swg-theme="dark"] .hero-box{background:rgba(31,24,39,.91);box-shadow:0 8px 30px rgba(0,0,0,.4)}
+html[data-swg-theme="dark"] .growing,html[data-swg-theme="dark"] .tagline{color:#e2d5e5}
+html[data-swg-theme="dark"] .card,html[data-swg-theme="dark"] .no-results,html[data-swg-theme="dark"] .swg-message-form,html[data-swg-theme="dark"] .swg-message{background:#28212f;border-color:#51415b}
+html[data-swg-theme="dark"] .resource-type-card,html[data-swg-theme="dark"] .resource-type,html[data-swg-theme="dark"] .meta,html[data-swg-theme="dark"] .favorites-note,html[data-swg-theme="dark"] .swg-message-note,html[data-swg-theme="dark"] .share-status,html[data-swg-theme="dark"] .swg-print-guidance{color:#c8b9cd!important}
+html[data-swg-theme="dark"] input,html[data-swg-theme="dark"] select,html[data-swg-theme="dark"] textarea,html[data-swg-theme="dark"] .swg-message-form input:not([type=hidden]){background:#302739;color:#f1eaf0;border-color:#685774}
+html[data-swg-theme="dark"] input::placeholder,html[data-swg-theme="dark"] textarea::placeholder{color:#c8b9cd}
+html[data-swg-theme="dark"] .favorites-toggle,html[data-swg-theme="dark"] .playlist-launch,html[data-swg-theme="dark"] .playlist-add{background:#302739;color:#e4c9f2;border-color:#685774}
+html[data-swg-theme="dark"] .favorites-toggle.active,html[data-swg-theme="dark"] .playlist-add.is-added{background:#493553}
+html[data-swg-theme="dark"] .actions a{background:#45324f;color:#f1dcfc}
+html[data-swg-theme="dark"] .actions a.listen,html[data-swg-theme="dark"] .swg-message-form button{background:#75508d;color:#fff}
+html[data-swg-theme="dark"] .playlist-panel,html[data-swg-theme="dark"] .swg-download-box{background:#28212f;color:#f1eaf0;border-color:#685774}
+html[data-swg-theme="dark"] .playlist-head,html[data-swg-theme="dark"] .playlist-player{border-color:#51415b}
+html[data-swg-theme="dark"] .playlist-player,html[data-swg-theme="dark"] .swg-license-scroll{background:#302739;color:#f1eaf0;border-color:#685774}
+html[data-swg-theme="dark"] .playlist-item{border-color:#51415b}
+html[data-swg-theme="dark"] .playlist-now,html[data-swg-theme="dark"] .playlist-empty,html[data-swg-theme="dark"] .swg-download-help{color:#c8b9cd}
+html[data-swg-theme="dark"] .playlist-controls button.secondary,html[data-swg-theme="dark"] .playlist-controls .swg-download-button,html[data-swg-theme="dark"] .swg-license-toggle{background:#493553;color:#f1dcfc;border-color:#685774}
+html[data-swg-theme="dark"] .swg-playlist-download-help{color:#e4c9f2!important}
+html[data-swg-theme="dark"] .section-bar,html[data-swg-theme="dark"] .song-introduction{background:#382a43!important;color:#f1eaf0}
+html[data-swg-theme="dark"] .song-introduction h2{color:#d9b9ed!important}
+html[data-swg-theme="dark"] section h2{border-color:#51415b}
+html[data-swg-theme="dark"] .section-bar span{color:#b9a4c4}
+html[data-swg-theme="dark"] .swg-message-form label{color:#f0dff5}
+html[data-swg-theme="dark"] .share-actions button,html[data-swg-theme="dark"] .share-actions a{color:#d9b9ed}
+.swg-theme-toggle{font:700 .92rem Caladea,serif;border:1px solid #d8cce0;border-radius:999px;background:rgba(255,255,255,.94);color:#382742;padding:9px 15px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.12);margin-left:auto;white-space:nowrap}
+html[data-swg-theme="dark"] .swg-theme-toggle{background:#302739;color:#f1dcfc;border-color:#8c739d}
+.swg-theme-toggle:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+@media print{html[data-swg-theme="dark"]{color-scheme:light;--purple:#65407a;--deep:#382742;--paper:#fff;--ink:#000;--soft:#eee7f2}html[data-swg-theme="dark"] #devotional,html[data-swg-theme="dark"] #devotional *{color:#000!important;background:#fff!important}.swg-theme-toggle{display:none!important}}
+
+/* Song-page private-message form: layout in BOTH themes. */
+.resource .swg-message{margin:34px 0 12px;padding:24px;border:1px solid #d8cce0;border-radius:14px;background:#f8f4fa}
+.resource .swg-message-form{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;max-width:620px;margin-top:16px;background:transparent}
+.resource .swg-message-form label{display:block;font-weight:700;line-height:1.5}
+.resource .swg-message-form input:not([type=hidden]),
+.resource .swg-message-form textarea{display:block;width:100%;min-width:0;box-sizing:border-box;margin:6px 0 0;padding:12px;border:1px solid #d1c4d9;border-radius:9px;background:#fff;color:#29262b;font:inherit}
+.resource .swg-message-form textarea{min-height:140px;resize:vertical}
+.resource .swg-message-form button{justify-self:start;width:auto;padding:12px 22px;border:0;border-radius:9px;background:#65407a;color:#fff;font:700 1rem Caladea,serif;cursor:pointer}
+.resource .swg-message-form button:hover{background:#382742}
+.resource .swg-message-note{line-height:1.55}
+html[data-swg-theme="dark"] .resource .swg-message{background:#28212f;border-color:#51415b}
+html[data-swg-theme="dark"] .resource .swg-message-form{background:transparent}
+html[data-swg-theme="dark"] .resource .swg-message-form input:not([type=hidden]),
+html[data-swg-theme="dark"] .resource .swg-message-form textarea{background:#302739;color:#f1eaf0;border-color:#685774}
+html[data-swg-theme="dark"] .resource .swg-message-form button{background:#75508d;color:#fff}
+html[data-swg-theme="dark"] .resource .swg-message-form button:hover{background:#8961a2}
+/* Injected devotional Scripture reader: keep label legible on its light button. */
+html[data-swg-theme="dark"] #devotional button:not(.print-btn),
+html[data-swg-theme="dark"] #devotional a[class*="scripture"],
+html[data-swg-theme="dark"] #devotional button[class*="scripture"]{background:#e9d9f1!important;color:#382742!important;border-color:#b79ac9!important}
+html[data-swg-theme="dark"] #devotional button:not(.print-btn) *,
+html[data-swg-theme="dark"] #devotional a[class*="scripture"] *{color:#382742!important}
+@media(max-width:640px){.resource .swg-message{padding:18px}.resource .swg-message-form{max-width:100%}}
+@media print{.resource .swg-message{display:none!important}}
+
+/* Theme control for pages with custom navigation (ministry workspaces, special pages). */
+.swg-theme-floating{position:fixed;right:18px;top:14px;z-index:9999;margin-left:0}
+/* Shared night-mode refinements for special layouts and Scripture modal. */
+html[data-swg-theme="dark"] .scripture-card{background:#28212f;color:#f1eaf0}
+html[data-swg-theme="dark"] .scripture-picks button{background:#382a43;color:#f1eaf0;border-color:#685774}
+html[data-swg-theme="dark"] .scripture-picks button.active{background:#75508d;color:#fff}
+html[data-swg-theme="dark"] .scripture-copy,html[data-swg-theme="dark"] .scripture-error-detail{color:#c8b9cd;border-color:#51415b}
+html[data-swg-theme="dark"] .swg-song-download-panel{background:#28212f;color:#f1eaf0}
+html[data-swg-theme="dark"] .swg-song-download-panel h2,html[data-swg-theme="dark"] .swg-song-download-panel a{color:#d9b9ed}
+html[data-swg-theme="dark"] header:not(.hero){background:#28212f;color:#f1eaf0}
+html[data-swg-theme="dark"] main,html[data-swg-theme="dark"] article{color:var(--ink,#f1eaf0)}
+@media(max-width:640px){.swg-theme-floating{right:8px;top:8px;padding:7px 10px}}
+@media print{.swg-theme-floating{display:none!important}}
+
+
+/* November 2026: targeted contrast repairs for legacy and ministry layouts. */
+html[data-swg-theme="dark"] .content-card,
+html[data-swg-theme="dark"] .update,
+html[data-swg-theme="dark"] .mission,
+html[data-swg-theme="dark"] .intro,
+html[data-swg-theme="dark"] .day-toc,
+html[data-swg-theme="dark"] .audio-note,
+html[data-swg-theme="dark"] .gift a,
+html[data-swg-theme="dark"] .file,
+html[data-swg-theme="dark"] .pill {background:#302739;color:#f1eaf0;border-color:#685774}
+html[data-swg-theme="dark"] .page-head p,
+html[data-swg-theme="dark"] .lead,
+html[data-swg-theme="dark"] .tech-note,
+html[data-swg-theme="dark"] .update-kicker,
+html[data-swg-theme="dark"] .update h3,
+html[data-swg-theme="dark"] .update em,
+html[data-swg-theme="dark"] .file strong,
+html[data-swg-theme="dark"] .day h3,
+html[data-swg-theme="dark"] .scripture,
+html[data-swg-theme="dark"] .christmas-note {color:#e4c9f2}
+html[data-swg-theme="dark"] .file span,
+html[data-swg-theme="dark"] .preview-note,
+html[data-swg-theme="dark"] .muted {color:#c8b9cd}
+html[data-swg-theme="dark"] .update h2 {border-color:#685774}
+html[data-swg-theme="dark"] .card h3,
+html[data-swg-theme="dark"] #lyrics h3,
+html[data-swg-theme="dark"] #devotional h3,
+html[data-swg-theme="dark"] #letter h3 {color:#f0dff5}
+html[data-swg-theme="dark"] .day-toc a,
+html[data-swg-theme="dark"] .gift a {color:#e4c9f2}
+html[data-swg-theme="dark"] .card:not(.resource .card),
+html[data-swg-theme="dark"] main .card {border-color:#51415b}
+html[data-swg-theme="dark"] .file {border-style:dashed}
+html[data-swg-theme="dark"] .preview-cover {background:#302739;border-color:#685774}
+/* The projection PDF viewer remains white: its embedded PDF is authored independently. */
+@media print {html[data-swg-theme="dark"] .content-card,html[data-swg-theme="dark"] .update,html[data-swg-theme="dark"] .mission,html[data-swg-theme="dark"] .intro {background:white!important;color:black!important}}
+
+/* Consistent accessible footer in both themes */
+footer, .swg-shared-footer {text-align:center;padding:24px 18px;border-top:1px solid #d8cce0;background:#f3edf6;color:#382742;font-family:Caladea,Georgia,serif;line-height:1.55}
+footer [data-swg-copyright],.swg-shared-footer [data-swg-copyright]{color:inherit!important;margin:10px auto}
+footer [data-swg-copyright] a{color:#65407a!important;text-decoration:underline}
+html[data-swg-theme="dark"] footer,html[data-swg-theme="dark"] .swg-shared-footer{background:#241d2b!important;color:#f0e4f5!important;border-color:#5d4c69!important}
+html[data-swg-theme="dark"] footer [data-swg-copyright] a{color:#e1b9f7!important}
+.swg-free-use-section{max-width:900px;margin:40px auto;padding:24px;border:1px solid #d8cce0;border-radius:14px;background:#f8f4fa;color:#382742}
+.swg-free-use-section h2{margin-top:0}
+html[data-swg-theme="dark"] .swg-free-use-section{background:#302739;color:#f1eaf0;border-color:#685774}
+@media print{.swg-shared-footer{display:none!important}}
+
+/* Shared message dropdown and conditional subject field */
+.swg-message-form select{display:block;width:100%;min-width:0;box-sizing:border-box;margin:6px 0 0;padding:12px;border:1px solid #d1c4d9;border-radius:9px;background:#fff;color:#29262b;font:inherit}
+.swg-message-form [hidden]{display:none!important}
+.swg-form-status{min-height:1em;margin:0;font-size:.9rem}
+html[data-swg-theme="dark"] .swg-message-form select{background:#302739;color:#f1eaf0;border-color:#685774}
